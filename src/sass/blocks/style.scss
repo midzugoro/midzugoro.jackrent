@@ -1,7 +1,14 @@
 
-*
-  font-family: 'Roboto' sans-serif
-@import "variables"
-@import "mixins"
-@import "general"
-@import "media"
+@import '../base/variables';
+@import '../base/mixins';
+
+* {
+  font-family: 'Museo Sans Cyrl', sans-serif;
+}
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+.promo {
+  font-size: 100px;
+}

@@ -9,6 +9,6 @@
   max-width: 950px;
   margin: 0 auto;
 }
-.promo {
-  font-size: 100px;
-}
+
+@import 'blocks/buttons';
+@import 'blocks/nav';

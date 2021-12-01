@@ -1,5 +1,5 @@
 {
-  "name": "pulse",
+  "name": "jackrent",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/midzugoro/uber.git"
+    "url": "git+https://github.com/midzugoro/midzugoro.jackrent.git"
   },
   "author": "Victor",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/midzugoro/uber/issues"
+    "url": "https://github.com/midzugoro/midzugoro.jackrent/issues"
   },
-  "homepage": "https://github.com/midzugoro/uber#readme",
+  "homepage": "https://github.com/midzugoro/midzugoro.jackrent#readme",
   "devDependencies": {
     "browser-sync": "^2.27.7",
     "gulp": "^4.0.2",

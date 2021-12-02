@@ -1,0 +1,52 @@
+.promo {
+    min-height: 600px;
+    background: url('../../img/bg/promo_bg_2.jpeg') center (center/cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 40px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: right;
+    }
+    &__title {
+        width: 700px;
+        margin-top: 100px;
+        font-size: 40px;
+        span {
+            font-size: 35px;
+            color: $sub-color
+        }
+    }
+    &__subtitle {
+        margin-top: 20px;
+        font-size: 22px;
+
+    }
+    &__items {
+        margin-top: 50px;
+        margin-bottom: 45px;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        width: 400px;
+        svg {
+            width: 50px;
+            height: 50px;
+            color: $sub-color;
+        }
+        span {
+            font-weight: 700;
+            font-size: 13px;
+        }
+    }
+    &__item {
+        width: 30%;
+        font-size: 12px;
+    }
+    &__descr {
+        margin-top: 10px;
+    }
+
+}

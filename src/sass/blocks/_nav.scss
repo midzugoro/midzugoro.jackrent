@@ -1,5 +1,5 @@
 .nav {
-    background-color: black;
+    background-color: #000;
     position: fixed;
     top: 0;
     width: 100%;
@@ -66,18 +66,30 @@
         }
     }
     &__phone {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         &_number {
             display: block;
             text-align: center;
             color: #fff;
             text-decoration: none;
             font-weight: 300;
-            font-size: 13px;
+            font-size: 15px;
             margin-bottom: -4px;
             transition: 0.5s all;
             &:hover {
                 color: #fff;
                 text-shadow: 2px 2px 5px #fff, 0 0 1em green;
+            }
+        }
+        svg {
+            color: $sub-color;
+            margin-top: 3px;
+            margin-right: 5px;
+            transition: 0.5s all;
+            &:hover {
+                color: #fff;
             }
         }
     }

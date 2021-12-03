@@ -16,5 +16,14 @@
         color: #000;
         background-color: #fff;
     }
+    &_mini {
+        width: 130px;
+        height: 40px;
+        font-size: 13px;
+        &:hover {
+            color: #fff;
+            background-color: #000;
+        }
+    }
 
 }

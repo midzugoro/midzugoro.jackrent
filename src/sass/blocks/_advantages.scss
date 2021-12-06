@@ -1,6 +1,9 @@
 .advantages {
     min-height: 200px;
     background: $main-color;
+    &-min {
+        min-height: 180px;
+    }
     &__wrapper {
         display: flex;
         justify-content: space-around;
@@ -9,6 +12,19 @@
         position: absolute;
         z-index: 2;
         font-size: 17px;
+        font-weight: 300;
+        span {
+            color: $sub-color;
+            font-size: 30px;
+            text-shadow: #fff 1px 1px 2px;
+        }
+        &-min {
+            font-weight: 300;
+            span {
+                font-size: 20px;
+                text-shadow: #fff 0.5px 0.5px 1px;
+            }
+        }
     }
     &__item {
         position: relative;
@@ -16,12 +32,7 @@
         text-align: center;
         color: #fff;
         margin-top: 50px;
-
-        span {
-            color: $sub-color;
-            font-size: 30px;
-            text-shadow: #fff 1px 1px 2px;
-        }
+        
         svg {
             position: absolute;
             left: 0;
@@ -31,6 +42,21 @@
             height: 100px;
 
         }
+        &-min {
+            width: 100%;
+        }
+    }
+    &__points {
+        display: flex;
+        justify-content: center;
+    }
+    &__point {
+        width: 6px;
+        height: 6px;
+        margin: 0 10px 20px 10px;
+        border: 3px solid $sub-color;
+        border-radius: 1px;
+
     }
     
 }

@@ -1,0 +1,50 @@
+.portfolio {
+    background-color: #000;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__item {
+        display: block;
+        position: relative;
+        width: 420px;
+        margin: 20px 0 40px 0;
+        border: 2px solid #fff;
+        // box-shadow: 2px 2px 3px #fff;
+    }
+    &__img {
+        width: 100%;
+    }
+    &__text {
+        display: block;
+        position: absolute;
+        bottom: 20px;
+        width: 80%;
+        left: 10px;
+        color: #fff;
+    }
+    &__date {
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        background-color: $sub-color;
+        text-transform: uppercase;
+        padding: 0 5px 0 5px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #fff;
+        span {
+            color: #000;
+        }
+    }
+    &__name {
+        font-weight: 700;
+    }
+    &__descr {
+        font-size: 12px;
+    }
+
+}
